@@ -21,6 +21,8 @@ A fórmula para o ajuste dos pesos é:
 
 Esse processo é repetido até que o erro seja suficientemente pequeno ou que o número máximo de iterações seja atingido.
 
+---
+
 ## O que é uma Função Sigmoide?
 
 A **função sigmoide** é uma função matemática que transforma um valor de entrada em um número entre **-1 e 1** (no caso da sigmoide escalada). No contexto do perceptron, a sigmoide é usada para calcular a **saída prevista** de maneira suave e contínua.
@@ -36,6 +38,8 @@ A **função sigmoide** é uma função matemática que transforma um valor de e
 A sigmoide é útil porque:
 - **Suaviza as decisões**, fornecendo previsões contínuas.
 - **Facilita o ajuste dos pesos** com sua derivada, essencial para o aprendizado com a **Regra Delta**.
+
+---
 
 ### Entradas e Saídas
 
@@ -53,6 +57,8 @@ A sigmoide é útil porque:
      ```python
      d = [1, -1, -1, -1]
      ```
+
+---
 
 ## Porque as portas **OR** e **AND** tem essa sútil diferença apenas na Saída (d) ? 
 
@@ -147,6 +153,8 @@ for entrada in p:
     print(f"Entrada: {entrada} | Saída prevista: {find_output(entrada, w)}")
 ```
 
+---
+
 ## Resultados
 
 - Vale ressaltar que o Perceptron foi treinado por até 1000 iterações para minimizar o erro.
@@ -163,6 +171,8 @@ Entrada: [-1 1 -1] | Saída prevista: 0.8896
 Entrada: [-1 -1 -1] | Saída prevista: -0.8897
 
 ```
+
+---
 
 ## Como o Perceptron Funciona
 
