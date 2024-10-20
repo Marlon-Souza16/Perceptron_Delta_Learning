@@ -12,9 +12,9 @@ A **Regra Delta** é um método utilizado para **ajustar os pesos** de um neurô
 
 A fórmula para o ajuste dos pesos é:
 
-\[
+$$
 \Delta w = c \cdot (d - o) \cdot \text{derivada\_da\_ativação}
-\]
+$$
 
 - **Δw**: Ajuste no peso
 - **c**: Taxa de aprendizado
@@ -29,9 +29,9 @@ A **função sigmoide** é uma função matemática que transforma um valor de e
 
 ### Fórmula da Função Sigmoide Escalada:
 
-\[
+$$
 S(x) = \left(\frac{2}{1 + e^{-x}}\right) - 1
-\]
+$$
 
 - Se o valor de entrada for positivo e alto, a saída será próxima de **1**.
 - Se o valor for negativo e baixo, a saída será próxima de **-1**.
