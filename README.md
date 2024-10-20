@@ -57,7 +57,7 @@ Portanto, a função de ativação nesse caso ficaria assim:
  - e = 0.3012
  - 1 / (1 + 0.3012) = 0.7685
 
-![Calculo f(1.2)](.images/resultado_exemplo.png)
+![Calculo f(1.2)](./images/resultado_exemplo.png)
 
 Portanto neste exemplo a função de ativação retorna aproximadamente 0.537, um valor próximo de 1, mas ainda abaixo.
 
