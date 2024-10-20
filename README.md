@@ -39,6 +39,24 @@ A sigmoide é útil porque:
 - **Suaviza as decisões**, fornecendo previsões contínuas.
 - **Facilita o ajuste dos pesos** com sua derivada, essencial para o aprendizado com a **Regra Delta**.
 
+### Exemplo de Aplicação da função sigmoide (com a Entrada [1, 1, −1]):
+
+Inicialmente devemos calcular o **produto interno (u)**, para isso, consideraremos que os pesos são:
+ - w = [0.5, 0.5, -0.2]
+
+O produto interno para a entrada [1, 1, -1] seria de: 
+
+![Calculo produto interno (u)]()
+
+#### Ao aplicarmos a Função de Ativação acima, considerando 
+
+ - e = 0.3012
+ - 1 / (1 + 0.3012) = 0.7685
+
+![Calculo f(1.2)]()
+
+Portanto neste exemplo a função de ativação retorna aproximadamente 0.537, um valor próximo de 1, mas ainda abaixo.
+
 ---
 
 ### Entradas e Saídas
