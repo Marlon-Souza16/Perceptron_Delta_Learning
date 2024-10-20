@@ -1,6 +1,6 @@
 # Perceptron com Regra de Aprendizado Delta
 
-Este projeto implementa um **Perceptron** para resolver o problema da porta lógica **OR**, utilizando a **Regra de Aprendizado Delta**. Ele exemplifica o funcionamento básico de uma rede neural com um único neurônio e demonstra como ajustar pesos com base no erro durante o treinamento.
+Este projeto implementa um **Perceptron** para resolver o problema das portas lógicas **OR** ou **AND**, utilizando a **Regra de Aprendizado Delta**. Ele exemplifica o funcionamento básico de uma rede neural com um único neurônio e demonstra como ajustar pesos com base no erro durante o treinamento.
 
 ## Como Funciona?
 
@@ -47,11 +47,11 @@ A sigmoide é útil porque:
 
 - **Saídas Desejadas (Porta OR)**:
     ```python
-    [1, 1, 1, -1]
+    d = [1, 1, 1, -1]
     ```
 - **Caso queira utilizar a porta AND**:
      ```python
-        [1, -1, -1, -1]
+     d = [1, -1, -1, -1]
      ```
 
 ## Porque as portas **OR** e **AND** tem essa sútil diferença apenas na Saída (d) ? 
