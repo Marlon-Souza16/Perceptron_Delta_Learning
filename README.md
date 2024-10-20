@@ -12,7 +12,7 @@ A **Regra Delta** é um método utilizado para **ajustar os pesos** de um neurô
 
 A fórmula para o ajuste dos pesos é:
 
-![Aprendizado_Delta](https://latex.codecogs.com/png.image?\inline&space;\large&space;\dpi{120}\bg{white}\Delta%20w%20=%20c\cdot(d-o)\cdot\text{derivada\_de\_ativacao})
+![Aprendizado_Delta](https://drive.google.com/file/d/1zLZ6Ia7mixE2c0acLSaEy7ubllLMKfHF/view?usp=sharing)
 
 - **Δw**: Ajuste no peso
 - **c**: Taxa de aprendizado
