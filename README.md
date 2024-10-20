@@ -50,10 +50,9 @@ A sigmoide é útil porque:
     [1, 1, 1, -1]
     ```
 - **Caso queira utilizar a porta AND**:
-
- ```python
-    [1, -1, -1, -1]
- ```
+     ```python
+        [1, -1, -1, -1]
+     ```
 
 ## Porque as portas **OR** e **AND** tem essa sútil diferença apenas na Saída (d) ? 
 
@@ -73,6 +72,8 @@ A saída é **1** (ou verdadeiro) se **pelo menos uma** das entradas for 1. Caso
 
 **Explicação:**  
 Se qualquer uma das entradas for 1, a saída será **1**. Apenas quando ambas são **-1** (falso), a saída será **-1**.
+
+---
 
 ### Porta AND ('E' lógico):
 A saída é **1** somente se **todas** as entradas forem 1. Caso contrário, retorna **-1**.
