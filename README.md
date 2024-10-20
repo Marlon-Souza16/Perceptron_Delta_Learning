@@ -29,7 +29,7 @@ A **função sigmoide** é uma função matemática que transforma um valor de e
 
 ### Fórmula da Função Sigmoide Escalada:
 
-![Função Sigmoide](https://latex.codecogs.com/png.image?\large&space;\dpi{110}&space;S(x)=\left(\frac{2}{1&plus;e^{-x}}\right)-1&space;](https://latex.codecogs.com/png.image?\inline&space;\huge&space;\dpi{120}\bg{white}&space;S(x)=\left(\frac{2}{1&plus;e^{-x}}\right)-1&space;)
+![Função Sigmoide](https://latex.codecogs.com/png.image?\inline&space;\huge&space;\dpi{120}\bg{white}&space;S(x)=\left(\frac{2}{1&plus;e^{-x}}\right)-1&space;)
 
 - Se o valor de entrada for positivo e alto, a saída será próxima de **1**.
 - Se o valor for negativo e baixo, a saída será próxima de **-1**.
