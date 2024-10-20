@@ -103,7 +103,7 @@ A diferença na saída reflete as **regras da lógica booleana**:
 
 ---
 
-## Exemplo de Execução00
+## Exemplo de Execução:
 
 ```python
 import numpy as np
