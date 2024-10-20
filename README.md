@@ -46,14 +46,18 @@ Inicialmente devemos calcular o **produto interno (u)**, para isso, considerarem
 
 O produto interno para a entrada [1, 1, -1] seria de: 
 
-![Calculo produto interno (u)]()
+![Calculo produto interno (u)](./images/Produto_interno.png)
+
+Portanto, a função de ativação nesse caso ficaria assim:
+
+![Função Ativação](./images/funcao_ativacao.png)
 
 #### Ao aplicarmos a Função de Ativação acima, considerando 
 
  - e = 0.3012
  - 1 / (1 + 0.3012) = 0.7685
 
-![Calculo f(1.2)]()
+![Calculo f(1.2)](.images/resultado_exemplo.png)
 
 Portanto neste exemplo a função de ativação retorna aproximadamente 0.537, um valor próximo de 1, mas ainda abaixo.
 
