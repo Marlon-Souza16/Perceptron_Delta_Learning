@@ -49,8 +49,54 @@ A sigmoide é útil porque:
     ```python
     [1, 1, 1, -1]
     ```
+- **Caso queira utilizar a porta AND**:
 
-## Exemplo de Execução
+ ```python
+    [1, -1, -1, -1]
+ ```
+
+## Porque as portas **OR** e **AND** tem essa sútil diferença apenas na Saída (d) ? 
+
+A diferença nas **saídas desejadas** entre as portas **OR** e **AND** reflete o comportamento lógico de cada operação. Embora as **entradas** sejam as mesmas para ambos os casos, a lógica interna das portas OR e AND é distinta, e isso se traduz nas saídas esperada, conforme demonstrado abaixo:
+
+### Porta OR ('OU' lógico):
+A saída é **1** (ou verdadeiro) se **pelo menos uma** das entradas for 1. Caso contrário, retorna **-1** (equivalente a 0, ou falso).
+
+#### Tabela-verdade da OR:
+
+| **Entrada 1** | **Entrada 2** | **Saída** |
+|---------------|---------------|-----------|
+| 1             | 1             | 1         |
+| 1             | -1            | 1         |
+| -1            | 1             | 1         |
+| -1            | -1            | -1        |
+
+**Explicação:**  
+Se qualquer uma das entradas for 1, a saída será **1**. Apenas quando ambas são **-1** (falso), a saída será **-1**.
+
+### Porta AND ('E' lógico):
+A saída é **1** somente se **todas** as entradas forem 1. Caso contrário, retorna **-1**.
+
+#### Tabela-verdade da AND:
+| **Entrada 1** | **Entrada 2** | **Saída** |
+|---------------|---------------|-----------|
+| 1             | 1             | 1         |
+| 1             | -1            | -1        |
+| -1            | 1             | -1        |
+| -1            | -1            | -1        |
+
+**Explicação:**  
+A porta AND é **mais restritiva**, pois exige que ambas as entradas sejam **1** para que a saída seja **1**. Se qualquer uma das entradas for **-1**, a saída será **-1**.
+
+## Diferença Principal
+A diferença na saída reflete as **regras da lógica booleana**:
+
+- **OR:** Mais permissiva, retorna **1** se **qualquer uma** das entradas for **1**.  
+- **AND:** Mais restritiva, só retorna **1** se **todas as entradas** forem **1**.
+
+---
+
+## Exemplo de Execução00
 
 ```python
 import numpy as np
